@@ -63,17 +63,70 @@ This study represents a continuation of the surrogate modelling proof of concept
 
 \section{Bayesian Networks}\label{sec:BNs}
 
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}[node distance=1.3cm, font=\footnotesize, align=center, >=stealth', line width=0.5mm]
+        % Define colors
+        \definecolor{lightgreen}{rgb}{0.56, 0.93, 0.56}
+        \definecolor{lightred}{rgb}{0.98, 0.5, 0.45}
+
+        % Nodes
+        \node[draw, circle, draw=lightgreen, text=black, minimum size=1.2cm] (input1) {$X_1$};
+        \node[draw, circle, draw=lightgreen, text=black, right of=input1, minimum size=1.2cm] (input2) {$X_2$};
+        \node[draw, circle, draw=lightgreen, text=black, right of=input2, minimum size=1.2cm] (input3) {$X_3$};
+        \node[draw, circle, draw=lightgreen, text=black, right of=input3, minimum size=1.2cm] (input4) {$X_4$};
+        \node[draw, circle, dashed, draw=lightgreen, text=black, right of=input4, minimum size=1.2cm] (input5) {$X_5$};
+
+        \node[draw, circle, draw=lightred, text=black, below=2.4cm of input3, minimum size=1.2cm] (output1) {$Y_1$};
+        \node[draw, circle, draw=lightred, text=black, left of=output1, minimum size=1.2cm] (output2) {$Y_2$};
+        \node[draw, circle, dashed, draw=lightred, text=black, right of=output1, minimum size=1.2cm] (output3) {$Y_3$};
+
+        % Edges
+        \foreach \i in {1,...,4} {
+            \foreach \j in {1,...,2} {
+                \draw[<->] (input\i) -- (output\j);
+            }
+        }
+        \foreach \j in {1,...,2} {
+            \draw[<->, dashed] (input5) -- (output\j);
+        }
+        \foreach \i in {1,...,5} {
+            \draw[<->, dashed] (input\i) -- (output3);
+        }
+    \end{tikzpicture}
+    \caption{\small Graphical representation of Bayesian Network where nodes $X_i$ represent the input variables and the nodes $Y_i$ represent the output variables to the analytical model. The solid lines represent the existing nodes in the model. Dashed line nodes representing those that are not present in the original model but can be added to the model as part of adapting the engineering environment as new information is gathered.}\label{fig:BN} 
+    \vspace{-15pt}
+\end{figure}
+
 
 \subsection{Literature review}
 
-\section{Methodology}\label{sec:PROCESS}
+Include your own work from previous paper and include work from Pavonne et al 2023. 
 
+\section{Methodology}\label{sec:methodology}
 
-\section{Results}\label{sec: Results} 
+Model is used as a tool to provide component decision support. 
+\begin{enumerate}
+    \item \textbf{Define objectives and constraints:} Here we define the objectives and constraints of the model.
+    \item \textbf{Deterministic model:} This is the model that we are trying to replicate.
+    \item \textbf{Select important parameters:} This is where parameters are selected for the surrogate model.
+    \item \textbf{Data collection \& parameter estimation:} This is where the deterministic model is run to collect data that will be used to train the surrogate model.
+    \item \textbf{Bayesian Network configuration:} This is where the Bayesian Network is configured to replicate the deterministic model.
+    \item \textbf{Decision tree: exploration of new variables:} This is where we explore new variables that can be added to the model. 
+    \item \textbf{Component decision support:} This is where the model is used to provide component decision support 
+\end{enumerate}
 
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=\textwidth]{figures/worflow_new.png}
+    \caption{Workflow of the surrogate modelling process.}\label{fig:workflow}
+\end{figure*}
 
+\section{Results}\label{sec:Results} 
 
-\section{Discussion}\label{sec: Discussion}
+Addition of new data or information will be included. Addition of new node (child or parent) will be included. Addition of soft evidence will be included.
+
+\section{Discussion}\label{sec:Discussion}
 
 
 \section{Conclusion and Further Work}\label{sec:conc}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.1)  5 FEB 2024 13:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.1)  5 FEB 2024 15:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -532,7 +532,7 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [lettersize].
 
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -549,6 +549,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
+
 -- Lines per column: 58 (exact).
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -581,29 +582,33 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+mvs on input line 40.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/marvosym/umvs.fd)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/marvosym/umvs.fd) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+
+
+]
+<figures/worflow_new.png, id=18, 2290.5575pt x 865.2325pt>
+File: figures/worflow_new.png Graphic file (type png)
+<use figures/worflow_new.png>
+Package pdftex.def Info: figures/worflow_new.png  used on input line 121.
+(pdftex.def)             Requested size: 516.0pt x 194.90656pt.
+
 No file main.bbl.
-[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+[2
 
-
-] (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ <./figures/worflow_new.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 16914 strings out of 476025
- 343258 string characters out of 5790017
- 1863388 words of memory out of 5000000
- 37063 multiletter control sequences out of 15000+600000
- 551825 words of font info for 112 fonts, out of 8000000 for 9000
+ 17087 strings out of 476025
+ 346803 string characters out of 5790017
+ 1869388 words of memory out of 5000000
+ 37225 multiletter control sequences out of 15000+600000
+ 555555 words of font info for 120 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 84i,7n,80p,827b,294s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 61805 bytes).
+ 84i,8n,80p,827b,857s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (2 pages, 263184 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 63 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
