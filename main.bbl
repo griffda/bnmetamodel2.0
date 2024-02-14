@@ -1,0 +1,48 @@
+\begin{thebibliography}{1}
+
+\bibitem{Hand2001IdiotsAll}
+Hand DJ, Yu K.
+\newblock {Idiot's Bayes—not so stupid after all?}
+\newblock International statistical review. 2001;69(3):385-98.
+
+\bibitem{Koller2009ProbabilisticTechniques}
+Koller D, Friedman N.
+\newblock {Probabilistic graphical models: principles and techniques}.
+\newblock MIT press; 2009.
+
+\bibitem{Cobb2007BayesianVariables}
+Cobb BR, Rum{\'{i}} R, Salmer{\'{o}}n A.
+\newblock {Bayesian network models with discrete and continuous variables}.
+\newblock Advances in probabilistic graphical models. 2007:81-102.
+
+\bibitem{Chen2017LearningData}
+Chen YC, Wheeler TA, Kochenderfer MJ.
+\newblock {Learning discrete Bayesian networks from continuous data}.
+\newblock Journal of Artificial Intelligence Research. 2017;59:103-32.
+
+\bibitem{Li2018EfficientVariables}
+Li C, Mahadevan S.
+\newblock {Efficient approximate inference in Bayesian networks with continuous variables}.
+\newblock Reliability Engineering {\&} System Safety. 2018 1;169:269-80.
+
+\bibitem{Duda1973PatternAnalysis}
+Duda RO, Hart PE, Stork DG.
+\newblock {Pattern classification and scene analysis}. vol.~3.
+\newblock Wiley New York; 1973.
+
+\bibitem{Neapolitan2004LearningNetworks}
+Neapolitan RE.
+\newblock {Learning bayesian networks}. vol.~38.
+\newblock Pearson Prentice Hall Upper Saddle River; 2004.
+
+\bibitem{Conti2019BayesianDesign}
+Conti ZX, Advisor T, Dritsas S, Lin S, Kaijima S.
+\newblock {Bayesian Network Metamodels for Inference-driven design space exploration Submitted by Architecture and Sustainable Design}; 2019.
+
+\bibitem{Marcot2021WhatAnalysis}
+Marcot BG, Hanea AM.
+\newblock {What is an optimal value of k in k-fold cross-validation in discrete Bayesian network analysis?}
+\newblock Computational Statistics. 2021;36(3):2009-31.
+\newblock Available from: \url{https://doi.org/10.1007/s00180-020-00999-9}.
+
+\end{thebibliography}

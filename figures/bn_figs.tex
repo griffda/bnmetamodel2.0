@@ -1,0 +1,136 @@
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}[node distance=1.3cm, font=\footnotesize, align=center, >=stealth', line width=0.5mm]
+        % Define colors
+        \definecolor{lightgreen}{rgb}{0.56, 0.93, 0.56}
+        \definecolor{lightred}{rgb}{0.98, 0.5, 0.45}
+
+        % Nodes
+        \node[draw, circle, draw=lightgreen, text=black, minimum size=1.2cm] (input1) {$X_1$};
+        \node[draw, circle, draw=lightgreen, text=black, right of=input1, minimum size=1.2cm] (input2) {$X_2$};
+        \node[draw, circle, draw=lightgreen, text=black, right of=input2, minimum size=1.2cm] (input3) {$X_3$};
+        \node[draw, circle, draw=lightgreen, text=black, right of=input3, minimum size=1.2cm] (input4) {$X_4$};
+        \node[draw, circle, dashed, draw=lightgreen, text=black, right of=input4, minimum size=1.2cm] (input5) {$X_5$};
+
+        \node[draw, circle, draw=lightred, text=black, below=2.4cm of input3, minimum size=1.2cm] (output1) {$Y_1$};
+        \node[draw, circle, draw=lightred, text=black, left of=output1, minimum size=1.2cm] (output2) {$Y_2$};
+        \node[draw, circle, dashed, draw=lightred, text=black, right of=output1, minimum size=1.2cm] (output3) {$Y_3$};
+
+        % Edges
+        \foreach \i in {1,...,4} {
+            \foreach \j in {1,...,2} {
+                \draw[<->] (input\i) -- (output\j);
+            }
+        }
+        \foreach \j in {1,...,2} {
+            \draw[<->, dashed] (input5) -- (output\j);
+        }
+        \foreach \i in {1,...,5} {
+            \draw[<->, dashed] (input\i) -- (output3);
+        }
+    \end{tikzpicture}
+    \caption{\small Graphical representation of Bayesian Network where nodes $X_i$ represent the input variables and the nodes $Y_i$ represent the output variables to the analytical model. The solid lines represent the existing nodes in the model. Dashed line nodes representing those that are not present in the original model but can be added to the model as part of adapting the engineering environment as new information is gathered.}\label{fig:BN} 
+    \vspace{-15pt}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}[node distance=1.3cm, font=\footnotesize, align=center, >=stealth', line width=0.5mm]
+        % Define colors
+        \definecolor{lightgreen}{rgb}{0.56, 0.93, 0.56}
+        \definecolor{lightred}{rgb}{0.98, 0.5, 0.45}
+
+        % Nodes
+        \node[draw, circle, draw=lightgreen, text=black, minimum size=1.2cm] (input1) {$X_1$};
+        \node[draw, circle, draw=lightred, text=black, minimum size=0.9cm] {};
+        \node[draw, circle, draw=lightgreen, text=black, right of=input1, minimum size=1.2cm] (input2) {$X_2$};
+        \node[draw, circle, draw=lightred, text=black, right of=input1, minimum size=0.9cm] {};
+        \node[draw, circle, draw=lightgreen, text=black, right of=input2, minimum size=1.2cm] (input3) {$X_3$};
+        \node[draw, circle, draw=lightred, text=black, right of=input2, minimum size=0.9cm] {};
+        \node[draw, circle, draw=lightgreen, text=black, right of=input3, minimum size=1.2cm] (input4) {$X_4$};
+        \node[draw, circle, draw=lightred, text=black, right of=input3, minimum size=0.9cm] {};
+        \node[draw, circle, draw=lightgreen, dashed, text=black, right of=input4, minimum size=1.2cm] (input5) {$X_5$};
+        \node[draw, circle, draw=lightred, dashed, text=black, right of=input4, minimum size=0.9cm] {};
+
+        \node[draw, circle, draw=lightred, text=black, below=2.4cm of input3, minimum size=1.2cm] (output1) {$Y_2$};
+        \node[draw, circle, draw=lightgreen, text=black, right of=output2, minimum size=0.9cm] {};
+        \node[draw, circle, draw=lightred, text=black, left of=output1, minimum size=1.2cm] (output2) {$Y_1$};
+        \node[draw, circle, draw=lightgreen, text=black, left of=output1, minimum size=0.9cm] {};
+        \node[draw, circle, dashed, draw=lightred, text=black, right of=output1, minimum size=1.2cm] (output3) {$Y_3$};
+        \node[draw, circle, dashed, draw=lightgreen, text=black, right of=output1, minimum size=0.9cm] {};
+        % Edges
+        \foreach \i in {1,...,4} {
+            \foreach \j in {1,...,2} {
+                \draw[<->, line width=0.4mm] (input\i) -- (output\j);  % Decreased line width
+            }
+        }
+        \foreach \j in {1,...,2} {
+            \draw[<->, dashed, dash pattern=on 6pt off 2pt, line width=0.3mm] (input5) -- (output\j);  % Decreased line width and less 'dashed'
+        }
+        \foreach \i in {1,...,5} {
+            \draw[<->, dashed, dash pattern=on 6pt off 2pt, line width=0.3mm] (input\i) -- (output3);  % Decreased line width and less 'dashed'
+        }
+        
+    \end{tikzpicture}
+    \caption{\small Graphical representation of Bayesian Network where nodes $X_i$ represent the input variables and the nodes $Y_i$ represent the output variables to the analytical model. The solid lines represent the existing nodes in the model. Dashed line nodes representing those that are not present in the original model but can be added to the model as part of adapting the engineering environment as new information is gathered.}\label{fig:BN2} 
+    \vspace{-15pt}
+\end{figure}
+
+\begin{figure*}[ht] 
+    \centering 
+    \begin{minipage}{.5\textwidth} 
+        \centering 
+        \begin{tikzpicture}[node distance=1.5cm, font=\footnotesize, align=center, >=stealth', line width=0.5mm]
+            % Define colors
+            \definecolor{lightgreen}{rgb}{0.56, 0.93, 0.56}
+            \definecolor{lightred}{rgb}{0.98, 0.5, 0.45}
+
+            % Nodes
+            \node[draw, circle, draw=lightgreen, text=black, minimum size=1.2cm] (input1) {$R$};
+            \node[draw, circle, draw=lightgreen, text=black, right of=input1, minimum size=1.2cm] (input2) {$A$};
+            \node[draw, circle, draw=lightgreen, text=black, right of=input2, minimum size=1.2cm] (input3) {$Z_{\text{eff}}$};
+            \node[draw, circle, draw=lightgreen, text=black, right of=input3, minimum size=1.2cm] (input4) {$B_{\text{T}}$};
+
+            \node[draw, circle, draw=lightred, text=black, below=1.8cm of input2, xshift=-0.7cm, minimum size=1.2cm] (output2) {$H$};
+            \node[draw, circle, draw=lightred, text=black, below=1.8cm of input2, xshift=0.7cm, minimum size=1.2cm] (output3) {$E$};
+            \node[draw, circle, draw=lightred, text=black, below=1.8cm of input2, xshift=2.1cm, minimum size=1.2cm] (output4) {$C$};
+
+            % Edges
+            \foreach \i in {1,...,4} {
+                \foreach \j in {2,...,4} {
+                    \draw[<->, line width=0.4mm] (input\i) -- (output\j);  % Decreased line width
+                }
+            }
+        \end{tikzpicture}
+        \caption{\parbox{0.8\textwidth}{\small Graphical representation of Bayesian Network where nodes represent the input variables (Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) and the output variables (High Grade Wasteheat $H$, Net Electrical Output $E$, Capital Cost $C$) to the analytical model.}}\label{fig:BN} 
+        \vspace{-15pt}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \begin{tikzpicture}[node distance=1.5cm, font=\footnotesize, align=center, >=stealth', line width=0.5mm]
+            % Define colors
+            \definecolor{lightgreen}{rgb}{0.56, 0.93, 0.56}
+            \definecolor{lightred}{rgb}{0.98, 0.5, 0.45}
+
+            % Nodes
+            \node[draw, circle, draw=lightgreen, text=black, minimum size=1.2cm] (input1) {$X_1$};
+            \node[draw, circle, draw=lightgreen, text=black, right of=input1, minimum size=1.2cm] (input2) {$X_2$};
+            \node[draw, circle, dashed, draw=lightgreen, text=black, right of=input2, minimum size=1.2cm] (input3) {$X_3$};
+
+            \node[draw, circle, draw=lightred, text=black, below=1.8cm of input2, xshift=-0.75cm, minimum size=1.2cm] (output1) {$Y_1$};
+            \node[draw, circle, dashed, draw=lightred, text=black, below=1.8cm of input2, xshift=0.75cm, minimum size=1.2cm] (output2) {$Y_2$};
+
+            % Edges
+            \foreach \i in {1,...,2} {
+                \foreach \j in {1,...,2} {
+                    \draw[<->, line width=0.4mm] (input\i) -- (output\j);  % Decreased line width
+                }
+            }
+            \foreach \j in {1,...,2} {
+                \draw[<->, dashed, dash pattern=on 6pt off 2pt, line width=0.3mm] (input3) -- (output\j);  % Decreased line width and less 'dashed'
+            }
+        \end{tikzpicture}
+        \caption{\parbox{0.8\textwidth}{\small Graphical representation of Bayesian Network where nodes $X_i$ represent the input variables and the nodes $Y_i$ represent the output variables to the analytical model. The solid lines represent the existing nodes in the model. Dashed line nodes representing those that are not present in the original model but can be added to the model as part of adapting the engineering environment as new information is gathered.}}\label{fig:BN3}
+        \vspace{-15pt}
+    \end{minipage}  
+\end{figure*}
