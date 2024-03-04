@@ -134,3 +134,176 @@
         \vspace{-15pt}
     \end{minipage}  
 \end{figure*}
+
+
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}[node distance=1.5cm, font=\footnotesize, align=center, >=stealth', line width=0.5mm]
+        % Define colors
+        \definecolor{lightgreen}{rgb}{0.56, 0.93, 0.56}
+        \definecolor{lightred}{rgb}{0.98, 0.5, 0.45}
+
+        % Nodes
+        \node[draw, circle, draw=lightgreen, text=black, minimum size=1.2cm] (input1) {$X_1$};
+        \node[draw, circle, draw=lightgreen, text=black, right of=input1, minimum size=1.2cm] (input2) {$X_2$};
+        \node[draw, circle, dashed, draw=lightgreen, text=black, right of=input2, minimum size=1.2cm] (input3) {$X_3$};
+
+        \node[draw, circle, draw=lightred, text=black, below=1.8cm of input2, xshift=-0.75cm, minimum size=1.2cm] (output1) {$Y_1$};
+        \node[draw, circle, dashed, draw=lightred, text=black, below=1.8cm of input2, xshift=0.75cm, minimum size=1.2cm] (output2) {$Y_2$};
+
+        % Edges
+        \foreach \i in {1,...,2} {
+            \foreach \j in {1,...,2} {
+                \draw[<->, line width=0.4mm] (input\i) -- (output\j);  % Decreased line width
+            }
+        }
+        \foreach \j in {1,...,2} {
+            \draw[<->, dashed, dash pattern=on 6pt off 2pt, line width=0.3mm] (input3) -- (output\j);  % Decreased line width and less 'dashed'
+        }
+    \end{tikzpicture}
+    \caption{\small Graphical representation of Bayesian Network where nodes $X_i$ represent the input variables and the nodes $Y_i$ represent the output variables to the analytical model. The solid lines represent the existing nodes in the model. Dashed line nodes representing those that are not present in the original model but can be added to the model as part of adapting the engineering environment as new information is gathered.}\label{fig:BN3} 
+    \vspace{-15pt}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}[node distance=1.5cm, font=\footnotesize, align=center, >=stealth', line width=0.5mm]
+        % Define colors
+        \definecolor{lightgreen}{rgb}{0.56, 0.93, 0.56}
+        \definecolor{lightred}{rgb}{0.98, 0.5, 0.45}
+
+        % Nodes
+        \node[draw, circle, draw=lightgreen, text=black, minimum size=1.2cm] (input1) {$X_1$};
+        \node[draw, circle, draw=lightgreen, text=black, right of=input1, minimum size=1.2cm] (input2) {$X_2$};
+        \node[right of=input2, node distance=0.9cm] (dots) {$\ldots$};
+        \node[draw, circle, draw=lightgreen, text=black, right of=dots, node distance=1cm, minimum size=1.2cm] (inputn) {$X_n$};
+        % Probability expression
+        \node[left of=input1, node distance=1.5cm, yshift=-1.6cm, font=\large] (prob) {$P(Y_1 | X_1, X_2)$};
+
+        \node[draw, circle, draw=lightred, text=black, below=1.8cm of input2, minimum size=1.2cm] (output1) {$Y_1$};
+
+        % Edges
+        \foreach \i in {1,2,n} {
+            \draw[->, line width=0.4mm] (input\i) -- (output1);  % Decreased line width
+        }        
+       
+    \end{tikzpicture}
+    \caption{\small x}\label{fig:BN3} 
+    \vspace{-15pt}
+\end{figure}
+
+
+\begin{figure*}[ht] 
+    \centering 
+    \begin{minipage}{.5\textwidth} 
+        \centering
+        \begin{tikzpicture}[node distance=1.5cm, font=\footnotesize, align=center, >=stealth', line width=0.5mm]
+            % Define colors
+            \definecolor{lightgreen}{rgb}{0.56, 0.93, 0.56}
+            \definecolor{lightred}{rgb}{0.98, 0.5, 0.45}
+            \definecolor{lightblue}{rgb}{0.68, 0.85, 0.90}
+    
+            % Nodes
+            \node[draw, circle, fill=lightgreen, draw=blue, text=black, minimum size=1.2cm] (input1) {$X_1$};
+            \node[draw, circle, fill=lightgreen, draw=blue, text=black, right of=input1, minimum size=1.2cm] (input2) {$X_2$};
+            \node[right of=input2, node distance=0.9cm] (dots) {$\ldots$};
+            \node[draw, circle, fill=lightgreen, draw=blue, text=black, right of=dots, node distance=1cm, minimum size=1.2cm] (inputn) {$X_n$};
+            % Probability expression
+            \node[left of=input1, node distance=1.5cm, yshift=-1.6cm, font=\large] (prob) {$P(Y_1 | X_1, X_2)$};
+    
+            \node[draw, circle, draw=red, text=black, below=1.8cm of input2, minimum size=1.2cm] (output1) {$Y_1$};
+    
+            % Edges
+            \foreach \i in {1,2,n} {
+                \draw[->, line width=0.4mm] (input\i) -- (output1);  % Decreased line width
+            }        
+           
+        \end{tikzpicture}
+        \vspace{-15pt}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \begin{tikzpicture}[node distance=1.5cm, font=\footnotesize, align=center, >=stealth', line width=0.5mm]
+            % Define colors
+            \definecolor{lightgreen}{rgb}{0.56, 0.93, 0.56}
+            \definecolor{lightred}{rgb}{0.98, 0.5, 0.45}
+            \definecolor{lightblue}{rgb}{0.68, 0.85, 0.90}
+    
+            % Nodes
+            \node[draw, circle, draw=blue, text=black, minimum size=1.2cm] (input1) {$X_1$};
+            \node[draw, circle, draw=blue, text=black, right of=input1, minimum size=1.2cm] (input2) {$X_2$};
+            \node[right of=input2, node distance=0.9cm] (dots) {$\ldots$};
+            \node[draw, circle, draw=blue, text=black, right of=dots, node distance=1cm, minimum size=1.2cm] (inputn) {$X_n$};
+            % Probability expression
+            \node[left of=input1, node distance=1.5cm, yshift=-1.6cm, font=\large] (prob) {$P(X_1, X_2|Y_1)$};
+    
+            \node[draw, circle, fill=lightgreen, draw=red, text=black, below=1.8cm of input2, minimum size=1.2cm] (output1) {$Y_1$};
+    
+            % Edges
+            \foreach \i in {1,2,n} {
+                \draw[->, line width=0.4mm] (input\i) -- (output1);  % Decreased line width
+            }        
+           
+        \end{tikzpicture}
+    \end{minipage}
+    \caption{\small x}\label{fig:BN3}  
+\end{figure*}
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}[node distance=1.5cm, font=\footnotesize, align=center, >=stealth', line width=0.5mm]
+        % Define colors
+        \definecolor{lightgreen}{rgb}{0.56, 0.93, 0.56}
+        \definecolor{lightred}{rgb}{0.98, 0.5, 0.45}
+        \definecolor{lightblue}{rgb}{0.68, 0.85, 0.90}
+
+        % Nodes
+        \node[draw, circle, fill=lightgreen, draw=blue, text=black, minimum size=1.2cm] (input1) {$X_1=2$};
+        \node[draw, circle, fill=lightgreen, draw=blue, text=black, right of=input1, minimum size=1.2cm] (input2) {$X_2=4$};
+        \node[right of=input2, node distance=0.9cm] (dots) {$\ldots$};
+        \node[draw, circle, fill=lightgreen, draw=blue, text=black, right of=dots, node distance=1cm, minimum size=1.2cm] (inputn) {$X_n$};
+        % Probability expression
+        \node[left of=input1, node distance=1.5cm, yshift=-1.6cm, font=\large] (prob) {$P(Y_1 | X_1, X_2)$};
+
+        \node[draw, circle, draw=red, text=black, below=1.8cm of input2, minimum size=1.2cm] (output1) {$Y_1$};
+
+        % Edges
+        \foreach \i in {1,2,n} {
+            \draw[->, line width=0.4mm] (input\i) -- (output1);  % Decreased line width
+        }        
+       
+    \end{tikzpicture}
+    \caption{\small x}~\label{fig:BN_forward} 
+    \vspace{-15pt}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}[node distance=1.5cm, font=\footnotesize, align=center, >=stealth', line width=0.5mm]
+        % Define colors
+        \definecolor{lightgreen}{rgb}{0.56, 0.93, 0.56}
+        \definecolor{lightred}{rgb}{0.98, 0.5, 0.45}
+        \definecolor{lightblue}{rgb}{0.68, 0.85, 0.90}
+
+        % Nodes
+        \node[draw, circle, draw=blue, text=black, minimum size=1.2cm] (input1) {$X_1$};
+        \node[draw, circle, draw=blue, text=black, right of=input1, minimum size=1.2cm] (input2) {$X_2$};
+        \node[right of=input2, node distance=0.9cm] (dots) {$\ldots$};
+        \node[draw, circle, draw=blue, text=black, right of=dots, node distance=1cm, minimum size=1.2cm] (inputn) {$X_n$};
+        % Probability expression
+        \node[left of=input1, node distance=1.5cm, yshift=-1.6cm, font=\large] (prob) {$P(X_1, X_2|Y_1)$};
+
+        \node[draw, circle, fill=lightgreen, draw=red, text=black, below=1.8cm of input2, minimum size=1.2cm] (output1) {$Y_1=0$};
+
+        % Edges
+        \foreach \i in {1,2,n} {
+            \draw[->, line width=0.4mm] (input\i) -- (output1);  % Decreased line width
+        }        
+       
+    \end{tikzpicture}
+    \caption{\small x}~\label{fig:BN_reverse} 
+    \vspace{-15pt}
+\end{figure}

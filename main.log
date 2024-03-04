@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.1)  12 FEB 2024 13:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.1)  1 MAR 2024 15:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -490,9 +490,6 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip settings
 \@dblbotnum=\count315
 \c@dblbotnumber=\count316
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks43
@@ -562,42 +559,39 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen324
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/preprint/balance.sty
-Package: balance 1999/02/23 4.3 (PWD)
-\oldvsize=\dimen325
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count326
 \l__pdf_internal_box=\box70
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 -- Lines per column: 58 (exact).
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count327
-\scratchdimen=\dimen326
+\scratchdimen=\dimen325
 \scratchbox=\box71
 \nofMPsegments=\count328
 \nofMParguments=\count329
 \everyMPshowfont=\toks47
 \MPscratchCnt=\count330
-\MPscratchDim=\dimen327
+\MPscratchDim=\dimen326
 \MPnumerator=\count331
 \makeMPintoPDFobject=\count332
 \everyMPtoPDFconversion=\toks48
@@ -611,74 +605,102 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 41.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+mvs on input line 41.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/marvosym/umvs.fd)
-Underfull \vbox (badness 2080) has occurred while \output is active []
-
- [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 40.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/marvosym/umvs.fd) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
-]
-<figures/workflow_v3.png, id=16, 2079.77pt x 861.2175pt>
-File: figures/workflow_v3.png Graphic file (type png)
-<use figures/workflow_v3.png>
-Package pdftex.def Info: figures/workflow_v3.png  used on input line 129.
-(pdftex.def)             Requested size: 516.0pt x 213.66121pt.
- [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [2]
+<figures/inference_F&R_diagram.png, id=29, 1318.9275pt x 657.45625pt>
+File: figures/inference_F&R_diagram.png Graphic file (type png)
+<use figures/inference_F&R_diagram.png>
+Package pdftex.def Info: figures/inference_F&R_diagram.png  used on input line 177.
+(pdftex.def)             Requested size: 464.39685pt x 231.48752pt.
 
- [3 <./figures/workflow_v3.png>] [4]
-<figures/st20_d1_7bins_folds.png, id=35, 1753.55125pt x 411.5375pt>
-File: figures/st20_d1_7bins_folds.png Graphic file (type png)
-<use figures/st20_d1_7bins_folds.png>
-Package pdftex.def Info: figures/st20_d1_7bins_folds.png  used on input line 180.
-(pdftex.def)             Requested size: 464.39685pt x 108.98784pt.
-<figures/SA_3D_trimmed_39.png, id=36, 491.436pt x 414.8298pt>
+Underfull \vbox (badness 1371) has occurred while \output is active []
+
+ [3 <./figures/inference_F&R_diagram.png>]
+<figures/workflow_v4.png, id=35, 1241.63875pt x 713.66624pt>
+File: figures/workflow_v4.png Graphic file (type png)
+<use figures/workflow_v4.png>
+Package pdftex.def Info: figures/workflow_v4.png  used on input line 203.
+(pdftex.def)             Requested size: 516.0pt x 296.57977pt.
+ [4 <./figures/workflow_v4.png>]
+<figures/sobol_vs_lhs_simple.png, id=40, 1000.9395pt x 361.35pt>
+File: figures/sobol_vs_lhs_simple.png Graphic file (type png)
+<use figures/sobol_vs_lhs_simple.png>
+Package pdftex.def Info: figures/sobol_vs_lhs_simple.png  used on input line 226.
+(pdftex.def)             Requested size: 516.0pt x 186.29306pt.
+ [5 <./figures/sobol_vs_lhs_simple.png>]
+<figures/output_dist_eg.png, id=45, 516.0078pt x 330.2739pt>
+File: figures/output_dist_eg.png Graphic file (type png)
+<use figures/output_dist_eg.png>
+Package pdftex.def Info: figures/output_dist_eg.png  used on input line 242.
+(pdftex.def)             Requested size: 232.19843pt x 148.62187pt.
+ [6 <./figures/output_dist_eg.png>]
+<figures/TE_results/D1kfold.png, id=50, 1210.5225pt x 487.0998pt>
+File: figures/TE_results/D1kfold.png Graphic file (type png)
+<use figures/TE_results/D1kfold.png>
+Package pdftex.def Info: figures/TE_results/D1kfold.png  used on input line 275.
+(pdftex.def)             Requested size: 516.0pt x 207.63528pt.
+<figures/SA_3D_trimmed_39.png, id=51, 491.436pt x 414.8298pt>
 File: figures/SA_3D_trimmed_39.png Graphic file (type png)
 <use figures/SA_3D_trimmed_39.png>
-Package pdftex.def Info: figures/SA_3D_trimmed_39.png  used on input line 190.
-(pdftex.def)             Requested size: 309.60315pt x 261.35048pt.
+Package pdftex.def Info: figures/SA_3D_trimmed_39.png  used on input line 284.
+(pdftex.def)             Requested size: 252.0pt x 212.71875pt.
+ [7 <./figures/TE_results/D1kfold.png> <./figures/SA_3D_trimmed_39.png>]
+<figures/4grid_scatter.png, id=58, 1253.1618pt x 623.6901pt>
+File: figures/4grid_scatter.png Graphic file (type png)
+<use figures/4grid_scatter.png>
+Package pdftex.def Info: figures/4grid_scatter.png  used on input line 302.
+(pdftex.def)             Requested size: 412.80157pt x 205.4472pt.
+ [8] [9 <./figures/4grid_scatter.png>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 369.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<figures/TE_results/config(44)_4outputs/Figure_4_v2.png, id=67, 1600.7805pt x 772.5663pt>
+File: figures/TE_results/config(44)_4outputs/Figure_4_v2.png Graphic file (type png)
+<use figures/TE_results/config(44)_4outputs/Figure_4_v2.png>
+Package pdftex.def Info: figures/TE_results/config(44)_4outputs/Figure_4_v2.png  used on input line 375.
+(pdftex.def)             Requested size: 464.39685pt x 224.121pt.
+<figures/TE_results/config(44)_4outputs/Figure_5_V2.png, id=68, 1587.0492pt x 772.5663pt>
+File: figures/TE_results/config(44)_4outputs/Figure_5_V2.png Graphic file (type png)
+<use figures/TE_results/config(44)_4outputs/Figure_5_V2.png>
+Package pdftex.def Info: figures/TE_results/config(44)_4outputs/Figure_5_V2.png  used on input line 382.
+(pdftex.def)             Requested size: 464.39685pt x 226.06609pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+ [10] (./main.bbl [11 <./figures/TE_results/config(44)_4outputs/Figure_4_v2.png> <./figures/TE_results/config(44)_4outputs/Figure_5_V2.png>]
+Underfull \hbox (badness 1442) in paragraph at lines 43--44
+\OT1/ptm/m/n/10 jima, ``Bayesian net-work meta-mod-els for inference-
+ []
 
+) [12
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/newplotting_test.png, id=37, 1463.4675pt x 901.2069pt>
-File: figures/newplotting_test.png Graphic file (type png)
-<use figures/newplotting_test.png>
-Package pdftex.def Info: figures/newplotting_test.png  used on input line 235.
-(pdftex.def)             Requested size: 464.39685pt x 285.97186pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(./main.bbl [5 <./figures/st20_d1_7bins_folds.png>]
-Underfull \vbox (badness 5446) has occurred while \output is active []
-
-) [6 <./figures/SA_3D_trimmed_39.png>] [7 <./figures/newplotting_test.png>] (./main.aux) ) 
+] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 27470 strings out of 476025
- 691741 string characters out of 5790017
- 1873388 words of memory out of 5000000
- 47468 multiletter control sequences out of 15000+600000
- 556580 words of font info for 125 fonts, out of 8000000 for 9000
+ 27452 strings out of 476025
+ 691672 string characters out of 5790017
+ 1881388 words of memory out of 5000000
+ 47441 multiletter control sequences out of 15000+600000
+ 561749 words of font info for 135 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 99i,10n,103p,2497b,945s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (7 pages, 846117 bytes).
+ 99i,15n,103p,2457b,893s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (12 pages, 1302188 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 156 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
