@@ -1,0 +1,30 @@
+\section{Appendix: Prediction Accuracy}\label{appendix:prediction_accuracy}
+
+\begin{table}[h]
+    \centering
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{|clllllll|}
+    \hline
+    \multicolumn{2}{|l}{\multirow{2}{*}{\textbf{}}}                                 & \multicolumn{6}{c|}{Prediction Accuracy \%}                         \\ \cline{3-8} 
+    \multicolumn{2}{|l}{}                                                           & \multicolumn{3}{c|}{$d_{1}$} & \multicolumn{3}{c|}{$d_{2}$}                   \\ \hline
+    \multicolumn{2}{|c|}{Dataset size} &
+        \multicolumn{1}{l|}{1400} &
+        \multicolumn{1}{l|}{5120} &
+        \multicolumn{1}{l|}{10240} &
+        \multicolumn{1}{l|}{1400} &
+        \multicolumn{1}{l|}{5120} &
+        10240 \\ \hline
+    \multicolumn{1}{|c|}{\multirow{3}{*}{Bin resolution}} & \multicolumn{1}{l|}{5}  & 92.73  & 92.84  & 93.13 & 96.36 & 96.76                     & 96.73 \\ \cline{2-2}
+    \multicolumn{1}{|c|}{}                                & \multicolumn{1}{l|}{7}  & 93.74  & 94.08  & 94.79 & 96.98 & 96.79                     & 97.00 \\ \cline{2-2}
+    \multicolumn{1}{|c|}{}                                & \multicolumn{1}{l|}{10} & 89.37  & 91.20  & 90.86 & 88.25 & \multicolumn{1}{r}{89.75} & 89.40 \\ \hline
+    \end{tabular}%
+    }
+    \caption{\small A table displaying the average accuracy of predictions for $d_{1}$ and $d_{2}$ errors while investigating variations in both (i) the size of the dataset and (ii) the resolution of bins.}
+    \label{tab:prediction_accuracy}
+\end{table}
+
+\begin{figure*}[h]
+    \centering
+    \includegraphics[width=0.65\textwidth]{figures/validation_plots/TE/k-fold_two_outputs.png}
+    \caption{\small Normalised probability histograms with prediction accuracy values for each fold is shown for $d_{1}$ bin configuration: inputs (7) outputs (5), dataset size = 10240.}~\label{fig:k-foldhistogramsTE}
+\end{figure*}
