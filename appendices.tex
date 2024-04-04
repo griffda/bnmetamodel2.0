@@ -1,6 +1,6 @@
-\section{Appendix: Prediction Accuracy}\label{appendix:prediction_accuracy}
-
-\begin{table}[h]
+\section{Validation}\label{appendix:prediction_accuracy}
+\subsection{Prediction Accuracy}
+\begin{table}[ht]
     \centering
     \resizebox{\columnwidth}{!}{%
     \begin{tabular}{|clllllll|}
@@ -23,8 +23,219 @@
     \label{tab:prediction_accuracy}
 \end{table}
 
-\begin{figure*}[h]
+\newpage
+\subsection{K-Fold Cross Validation}
+
+\begin{figure*}[h!]
     \centering
     \includegraphics[width=0.65\textwidth]{figures/validation_plots/TE/k-fold_two_outputs.png}
     \caption{\small Normalised probability histograms with prediction accuracy values for each fold is shown for $d_{1}$ bin configuration: inputs (7) outputs (5), dataset size = 10240.}~\label{fig:k-foldhistogramsTE}
+\end{figure*}
+
+\newpage
+\section{Bayesian Reverse Inference}
+
+2 outputs: 
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_2outputs_1.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_2outputs_1}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_2outputs_2.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_2outputs_2}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_2outputs_3.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_2outputs_3}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_2outputs_4.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_2outputs_4}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_2outputs_6.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_2outputs_6}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_2outputs_7.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Capital Cost $C$) after updating the marginal prior beliefs (grey).}\label{fig:config(57)_2outputs_7}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_2outputs_8.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_2outputs_8}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_2outputs_9.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_2outputs_9}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_2outputs_10.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_2outputs_10}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_2outputs_11.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_2outputs_11}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_2outputs_12.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_2outputs_12}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_2outputs_125.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_2outputs_125}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_2outputs_16.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_2outputs_16}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_2outputs_17.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_2outputs_17}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_2outputs_18.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_2outputs_18}
+\end{figure*}
+
+3 outputs: 
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_3outputs_V2_1.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Net Electrical Output $E$, and  Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_3outputs_V2_1}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_3outputs_V2_2.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Net Electrical Output $E$, and  Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_3outputs_V2_2}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_3outputs_V2_3.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Net Electrical Output $E$, and  Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_3outputs_V2_3}
+\end{figure*}
+
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_3outputs_v2_5.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Net Electrical Output $E$, and  Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_3outputs_V2_5}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_3outputs_V2_6.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Net Electrical Output $E$, and  Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_3outputs_V2_6}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_3outputs_V2_7.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Net Electrical Output $E$, and  Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_3outputs_V2_7}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_3outputs_V2_8.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Net Electrical Output $E$, and  Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_3outputs_V2_8}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_3outputs_V2_9.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Net Electrical Output $E$, and  Capital Cost $C$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_3outputs_V2_9}
+\end{figure*}
+
+
+
+4 outputs: 
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_4outputs_1.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Net Electrical Output $E$, Capital Cost $C$, and Engineering Quality $Q_{\text{eng}}$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_4outputs_1}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_outputs(4)8.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Net Electrical Output $E$, Capital Cost $C$, and Engineering Quality $Q_{\text{eng}}$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_outputs(4)8}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_outputs(4)3.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Net Electrical Output $E$, Capital Cost $C$, and Engineering Quality $Q_{\text{eng}}$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_outputs(4)3}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_outputs(4)5.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Net Electrical Output $E$, Capital Cost $C$, and Engineering Quality $Q_{\text{eng}}$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_outputs(4)5}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/TE_results/march_data/config(57)_outputs(4)9.png}
+    \caption{Resulting posterior distributions depicted in red (variables: Major Radius $R$, Aspect Ratio $A$, Effective Ion Charge $Z_{\text{eff}}$, Toroidal Field on Plasma $B_{\text{T}}$) for reverse
+    inference on the selected green bins (High Grade Wasteheat $H$, Net Electrical Output $E$, Capital Cost $C$, and Engineering Quality $Q_{\text{eng}}$) after updating the marginal prior beliefs (grey).}~\label{fig:config(57)_outputs(4)9}
 \end{figure*}
