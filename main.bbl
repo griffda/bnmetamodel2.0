@@ -21,6 +21,12 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem[Kovari et~al.(2014)Kovari, Kemp, Lux, Knight, Morris, and Ward]{Kovari2014}
+M.~Kovari, R.~Kemp, H.~Lux, P.~Knight, J.~Morris, and D.~J. Ward, ``Process: A systems code for fusion power plants - part 1: Physics,'' vol.~89.\hskip 1em plus 0.5em minus 0.4em\relax Elsevier Ltd, 12 2014, pp. 3054--3069.
+
+\bibitem[Kovari et~al.(2016)Kovari, Fox, Harrington, Kembleton, Knight, Lux, and Morris]{Kovari2016}
+M.~Kovari, F.~Fox, C.~Harrington, R.~Kembleton, P.~Knight, H.~Lux, and J.~Morris, ``"process": A systems code for fusion power plants - part 2: Engineering,'' \emph{Fusion Engineering and Design}, vol. 104, pp. 9--20, 3 2016.
+
 \bibitem[Griffiths et~al.(2024)Griffiths, Conti, Hidalgo-Salaverri, and Bluck]{Griffiths2024}
 T.~Griffiths, Z.~X. Conti, J.~Hidalgo-Salaverri, and M.~Bluck, ``Using bayesian networks as metamodels for predicting uncertain fusion economics in spherical tokamaks,'' \emph{IEEE Transactions on Plasma Science}, pp. 1--7, 2024.
 
@@ -86,12 +92,6 @@ R.~O. Duda, P.~E. Hart, and D.~G. Stork, \emph{Pattern classification and scene 
 
 \bibitem[Neapolitan(2004)]{Neapolitan2004}
 R.~E. Neapolitan, \emph{Learning bayesian networks}.\hskip 1em plus 0.5em minus 0.4em\relax Pearson Prentice Hall Upper Saddle River, 2004, vol.~38.
-
-\bibitem[Kovari et~al.(2014)Kovari, Kemp, Lux, Knight, Morris, and Ward]{Kovari2014}
-M.~Kovari, R.~Kemp, H.~Lux, P.~Knight, J.~Morris, and D.~J. Ward, ``Process: A systems code for fusion power plants - part 1: Physics,'' vol.~89.\hskip 1em plus 0.5em minus 0.4em\relax Elsevier Ltd, 12 2014, pp. 3054--3069.
-
-\bibitem[Kovari et~al.(2016)Kovari, Fox, Harrington, Kembleton, Knight, Lux, and Morris]{Kovari2016}
-M.~Kovari, F.~Fox, C.~Harrington, R.~Kembleton, P.~Knight, H.~Lux, and J.~Morris, ``"process": A systems code for fusion power plants - part 2: Engineering,'' \emph{Fusion Engineering and Design}, vol. 104, pp. 9--20, 3 2016.
 
 \bibitem[Hidalgo-Salaverri et~al.(2023)Hidalgo-Salaverri, Griffiths, Conti, Cano-Megias, Chacartegui, Bluck, Ayllon-Guerola, Mancini, Garcia-Munoz, and Viezzer]{Hidalgo-Salaverri2023}
 J.~Hidalgo-Salaverri, T.~Griffiths, Z.~X. Conti, P.~Cano-Megias, R.~Chacartegui, M.~Bluck, J.~Ayllon-Guerola, A.~Mancini, M.~Garcia-Munoz, and E.~Viezzer, ``Hybrid hydrogen-electricity production using spherical tokamaks: a cost driver sensitivity study and techno economic analysis,'' \emph{Nuclear Fusion}, 9 2023.
