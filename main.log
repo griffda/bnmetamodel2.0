@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.1)  11 APR 2024 17:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.1)  12 APR 2024 16:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -618,17 +618,14 @@ LaTeX Font Info:    Trying to load font information for U+mvs on input line 41.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/marvosym/umvs.fd) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
+] [2]
 <figures/methodology/inference_F&R_diagram.png, id=24, 1318.9275pt x 657.45625pt>
 File: figures/methodology/inference_F&R_diagram.png Graphic file (type png)
 <use figures/methodology/inference_F&R_diagram.png>
 Package pdftex.def Info: figures/methodology/inference_F&R_diagram.png  used on input line 174.
 (pdftex.def)             Requested size: 387.0pt x 192.90459pt.
 
-Underfull \vbox (badness 5862) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3 <./figures/methodology/inference_F&R_diagram.png>]
 <figures/methodology/workflows/workflow_v5.png, id=35, 1611.01875pt x 953.5625pt>
@@ -636,32 +633,25 @@ File: figures/methodology/workflows/workflow_v5.png Graphic file (type png)
 <use figures/methodology/workflows/workflow_v5.png>
 Package pdftex.def Info: figures/methodology/workflows/workflow_v5.png  used on input line 197.
 (pdftex.def)             Requested size: 464.39685pt x 274.86732pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-<figures/methodology/sobol_vs_lhs_simple.png, id=39, 1000.9395pt x 361.35pt>
+ [4] [5 <./figures/methodology/workflows/workflow_v5.png>]
+<figures/methodology/sobol_vs_lhs_simple.png, id=43, 1000.9395pt x 361.35pt>
 File: figures/methodology/sobol_vs_lhs_simple.png Graphic file (type png)
 <use figures/methodology/sobol_vs_lhs_simple.png>
 Package pdftex.def Info: figures/methodology/sobol_vs_lhs_simple.png  used on input line 220.
 (pdftex.def)             Requested size: 412.80157pt x 149.02563pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5 <./figures/methodology/workflows/workflow_v5.png>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 234.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 233.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 <figures/TE_results/march_data/equidistant_binning.png, id=44, 925.056pt x 263.0628pt>
 File: figures/TE_results/march_data/equidistant_binning.png Graphic file (type png)
 <use figures/TE_results/march_data/equidistant_binning.png>
-Package pdftex.def Info: figures/TE_results/march_data/equidistant_binning.png  used on input line 249.
+Package pdftex.def Info: figures/TE_results/march_data/equidistant_binning.png  used on input line 248.
 (pdftex.def)             Requested size: 361.19843pt x 102.7145pt.
 <figures/TE_results/march_data/percentile_binning.png, id=45, 985.7628pt x 297.0297pt>
 File: figures/TE_results/march_data/percentile_binning.png Graphic file (type png)
 <use figures/TE_results/march_data/percentile_binning.png>
-Package pdftex.def Info: figures/TE_results/march_data/percentile_binning.png  used on input line 256.
+Package pdftex.def Info: figures/TE_results/march_data/percentile_binning.png  used on input line 255.
 (pdftex.def)             Requested size: 361.19843pt x 108.83417pt.
  [6 <./figures/methodology/sobol_vs_lhs_simple.png>]
 Underfull \vbox (badness 1629) has occurred while \output is active []
@@ -670,13 +660,13 @@ Underfull \vbox (badness 1629) has occurred while \output is active []
 <figures/validation_plots/PROCESS/st20_d1_7bins_folds.png, id=56, 1753.55125pt x 411.5375pt>
 File: figures/validation_plots/PROCESS/st20_d1_7bins_folds.png Graphic file (type png)
 <use figures/validation_plots/PROCESS/st20_d1_7bins_folds.png>
-Package pdftex.def Info: figures/validation_plots/PROCESS/st20_d1_7bins_folds.png  used on input line 287.
+Package pdftex.def Info: figures/validation_plots/PROCESS/st20_d1_7bins_folds.png  used on input line 286.
 (pdftex.def)             Requested size: 516.0pt x 121.10109pt.
  [8 <./figures/validation_plots/PROCESS/st20_d1_7bins_folds.png>]
 <figures/validation_plots/PROCESS/SA_3D_trimmed_39.png, id=61, 491.436pt x 414.8298pt>
 File: figures/validation_plots/PROCESS/SA_3D_trimmed_39.png Graphic file (type png)
 <use figures/validation_plots/PROCESS/SA_3D_trimmed_39.png>
-Package pdftex.def Info: figures/validation_plots/PROCESS/SA_3D_trimmed_39.png  used on input line 304.
+Package pdftex.def Info: figures/validation_plots/PROCESS/SA_3D_trimmed_39.png  used on input line 303.
 (pdftex.def)             Requested size: 226.79846pt x 191.44434pt.
 
 Underfull \vbox (badness 1527) has occurred while \output is active []
@@ -684,29 +674,29 @@ Underfull \vbox (badness 1527) has occurred while \output is active []
  [9 <./figures/validation_plots/PROCESS/SA_3D_trimmed_39.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 324.
+               Default added (so using `tbp') on input line 323.
 
 <figures/TE_results/4x4scatter_inputs_marchdata.png, id=66, 896.8707pt x 492.1587pt>
 File: figures/TE_results/4x4scatter_inputs_marchdata.png Graphic file (type png)
 <use figures/TE_results/4x4scatter_inputs_marchdata.png>
-Package pdftex.def Info: figures/TE_results/4x4scatter_inputs_marchdata.png  used on input line 353.
+Package pdftex.def Info: figures/TE_results/4x4scatter_inputs_marchdata.png  used on input line 352.
 (pdftex.def)             Requested size: 412.80157pt x 226.53093pt.
 [10]
 <figures/methodology/output_distributions.png, id=71, 1023.3432pt x 254.3904pt>
 File: figures/methodology/output_distributions.png Graphic file (type png)
 <use figures/methodology/output_distributions.png>
-Package pdftex.def Info: figures/methodology/output_distributions.png  used on input line 395.
+Package pdftex.def Info: figures/methodology/output_distributions.png  used on input line 394.
 (pdftex.def)             Requested size: 252.0pt x 62.64255pt.
 <figures/TE_results/march_data/config(57)_3outputs_v2_6.png, id=72, 970.5861pt x 497.9403pt>
 File: figures/TE_results/march_data/config(57)_3outputs_v2_6.png Graphic file (type png)
 <use figures/TE_results/march_data/config(57)_3outputs_v2_6.png>
-Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_v2_6.png  used on input line 436.
+Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_v2_6.png  used on input line 435.
 (pdftex.def)             Requested size: 412.80157pt x 211.77759pt.
  [11 <./figures/TE_results/4x4scatter_inputs_marchdata.png> <./figures/methodology/output_distributions.png>] [12]
 <figures/TE_results/march_data/3D_posteriors.png, id=82, 1774.9512pt x 529.7391pt>
 File: figures/TE_results/march_data/3D_posteriors.png Graphic file (type png)
 <use figures/TE_results/march_data/3D_posteriors.png>
-Package pdftex.def Info: figures/TE_results/march_data/3D_posteriors.png  used on input line 506.
+Package pdftex.def Info: figures/TE_results/march_data/3D_posteriors.png  used on input line 505.
 (pdftex.def)             Requested size: 516.0pt x 154.0003pt.
 
 Underfull \vbox (badness 5490) has occurred while \output is active []
@@ -813,15 +803,15 @@ Package pdftex.def Info: figures/TE_results/march_data/config(57)_outputs(3)_hyb
 (pdftex.def)             Requested size: 309.60315pt x 124.02249pt.
 ) [17] [18 <./figures/validation_plots/TE/k-fold_two_outputs.png>] [19 <./figures/TE_results/march_data/config(57)_3outputs_V2_1.png> <./figures/TE_results/march_data/config(57)_3outputs_V2_2.png> <./figures/TE_results/march_data/config(57)_3outputs_V2_3.png>] [20 <./figures/TE_results/march_data/config(57)_3outputs_v2_5.png> <./figures/TE_results/march_data/config(57)_3outputs_V2_6.png> <./figures/TE_results/march_data/config(57)_3outputs_V2_7.png>] [21 <./figures/TE_results/march_data/config(57)_3outputs_V2_8.png> <./figures/TE_results/march_data/config(57)_3outputs_V2_9.png> <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid_2.png>] [22 <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid_3.png> <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid4.png> <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid5.png>] [23 <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid6.png> <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid7.png> <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid8.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 27702 strings out of 476025
- 702574 string characters out of 5790017
+ 27690 strings out of 476025
+ 702407 string characters out of 5790017
  1879388 words of memory out of 5000000
- 47665 multiletter control sequences out of 15000+600000
+ 47655 multiletter control sequences out of 15000+600000
  563484 words of font info for 138 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 99i,15n,103p,2103b,893s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,15n,103p,2092b,893s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (23 pages, 2802660 bytes).
+Output written on main.pdf (23 pages, 2802123 bytes).
 PDF statistics:
  233 PDF objects out of 1000 (max. 8388607)
  114 compressed objects within 2 object streams
