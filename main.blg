@@ -18,45 +18,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Warning--empty booktitle in Kovari2014
 
 Done.
-You've used 37 entries,
+You've used 40 entries,
             4855 wiz_defined-function locations,
-            1207 strings with 16496 characters,
-and the built_in function-call counts, 35233 in all, are:
-= -- 3009
-> -- 1498
-< -- 181
-+ -- 692
-- -- 384
-* -- 2105
-:= -- 5415
-add.period$ -- 75
-call.type$ -- 37
-change.case$ -- 70
-chr.to.int$ -- 331
-cite$ -- 38
-duplicate$ -- 2369
-empty$ -- 2320
-format.name$ -- 463
-if$ -- 7905
+            1224 strings with 17532 characters,
+and the built_in function-call counts, 39372 in all, are:
+= -- 3302
+> -- 1792
+< -- 197
++ -- 821
+- -- 464
+* -- 2392
+:= -- 6031
+add.period$ -- 81
+call.type$ -- 40
+change.case$ -- 76
+chr.to.int$ -- 358
+cite$ -- 41
+duplicate$ -- 2619
+empty$ -- 2553
+format.name$ -- 549
+if$ -- 8816
 int.to.chr$ -- 1
-int.to.str$ -- 38
-missing$ -- 422
-newline$ -- 145
-num.names$ -- 111
-pop$ -- 1048
+int.to.str$ -- 41
+missing$ -- 482
+newline$ -- 156
+num.names$ -- 120
+pop$ -- 1199
 preamble$ -- 1
-purify$ -- 37
+purify$ -- 40
 quote$ -- 2
-skip$ -- 2567
+skip$ -- 2833
 stack$ -- 0
-substring$ -- 934
-swap$ -- 1792
-text.length$ -- 73
+substring$ -- 1011
+swap$ -- 2003
+text.length$ -- 81
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 558
+type$ -- 606
 warning$ -- 1
-while$ -- 131
+while$ -- 142
 width$ -- 0
-write$ -- 474
+write$ -- 515
 (There was 1 warning)

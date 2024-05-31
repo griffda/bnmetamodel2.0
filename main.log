@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.1)  26 APR 2024 15:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.1)  31 MAY 2024 11:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -566,20 +566,20 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 -- Lines per column: 58 (exact).
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -605,16 +605,16 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 41.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+mvs on input line 41.
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 46.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/marvosym/umvs.fd) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
@@ -622,86 +622,94 @@ LaTeX Font Info:    Trying to load font information for U+mvs on input line 41.
 <figures/methodology/inference_F&R_diagram.png, id=24, 1318.9275pt x 657.45625pt>
 File: figures/methodology/inference_F&R_diagram.png Graphic file (type png)
 <use figures/methodology/inference_F&R_diagram.png>
-Package pdftex.def Info: figures/methodology/inference_F&R_diagram.png  used on input line 174.
+Package pdftex.def Info: figures/methodology/inference_F&R_diagram.png  used on input line 179.
 (pdftex.def)             Requested size: 387.0pt x 192.90459pt.
  [3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 <figures/methodology/workflows/workflow_v5.png, id=34, 1611.01875pt x 953.5625pt>
 File: figures/methodology/workflows/workflow_v5.png Graphic file (type png)
 <use figures/methodology/workflows/workflow_v5.png>
-Package pdftex.def Info: figures/methodology/workflows/workflow_v5.png  used on input line 197.
+Package pdftex.def Info: figures/methodology/workflows/workflow_v5.png  used on input line 201.
 (pdftex.def)             Requested size: 464.39685pt x 274.86732pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 5862) has occurred while \output is active []
 
  [4 <./figures/methodology/inference_F&R_diagram.png>] [5 <./figures/methodology/workflows/workflow_v5.png>]
 <figures/methodology/sobol_vs_lhs_simple.png, id=43, 1000.9395pt x 361.35pt>
 File: figures/methodology/sobol_vs_lhs_simple.png Graphic file (type png)
 <use figures/methodology/sobol_vs_lhs_simple.png>
-Package pdftex.def Info: figures/methodology/sobol_vs_lhs_simple.png  used on input line 220.
+Package pdftex.def Info: figures/methodology/sobol_vs_lhs_simple.png  used on input line 223.
 (pdftex.def)             Requested size: 412.80157pt x 149.02563pt.
 
 Underfull \vbox (badness 1314) has occurred while \output is active []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 233.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 236.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [6 <./figures/methodology/sobol_vs_lhs_simple.png>]
 <figures/TE_results/march_data/equidistant_binning.png, id=48, 925.056pt x 263.0628pt>
 File: figures/TE_results/march_data/equidistant_binning.png Graphic file (type png)
 <use figures/TE_results/march_data/equidistant_binning.png>
-Package pdftex.def Info: figures/TE_results/march_data/equidistant_binning.png  used on input line 248.
+Package pdftex.def Info: figures/TE_results/march_data/equidistant_binning.png  used on input line 251.
 (pdftex.def)             Requested size: 361.19843pt x 102.7145pt.
 <figures/TE_results/march_data/percentile_binning.png, id=49, 985.7628pt x 297.0297pt>
 File: figures/TE_results/march_data/percentile_binning.png Graphic file (type png)
 <use figures/TE_results/march_data/percentile_binning.png>
-Package pdftex.def Info: figures/TE_results/march_data/percentile_binning.png  used on input line 255.
+Package pdftex.def Info: figures/TE_results/march_data/percentile_binning.png  used on input line 258.
 (pdftex.def)             Requested size: 361.19843pt x 108.83417pt.
+
+Underfull \vbox (badness 5504) has occurred while \output is active []
+
  [7 <./figures/TE_results/march_data/equidistant_binning.png> <./figures/TE_results/march_data/percentile_binning.png>]
 <figures/validation_plots/PROCESS/st20_d1_7bins_folds.png, id=56, 1753.55125pt x 411.5375pt>
 File: figures/validation_plots/PROCESS/st20_d1_7bins_folds.png Graphic file (type png)
 <use figures/validation_plots/PROCESS/st20_d1_7bins_folds.png>
-Package pdftex.def Info: figures/validation_plots/PROCESS/st20_d1_7bins_folds.png  used on input line 286.
+Package pdftex.def Info: figures/validation_plots/PROCESS/st20_d1_7bins_folds.png  used on input line 289.
 (pdftex.def)             Requested size: 516.0pt x 121.10109pt.
  [8]
-<figures/validation_plots/PROCESS/SA_3D_trimmed_39.png, id=60, 491.436pt x 414.8298pt>
-File: figures/validation_plots/PROCESS/SA_3D_trimmed_39.png Graphic file (type png)
-<use figures/validation_plots/PROCESS/SA_3D_trimmed_39.png>
-Package pdftex.def Info: figures/validation_plots/PROCESS/SA_3D_trimmed_39.png  used on input line 303.
-(pdftex.def)             Requested size: 226.79846pt x 191.44434pt.
- [9 <./figures/validation_plots/PROCESS/st20_d1_7bins_folds.png> <./figures/validation_plots/PROCESS/SA_3D_trimmed_39.png>]
+<figures/validation_plots/PROCESS/SA_process_3D.png, id=60, 856.3995pt x 681.5061pt>
+File: figures/validation_plots/PROCESS/SA_process_3D.png Graphic file (type png)
+<use figures/validation_plots/PROCESS/SA_process_3D.png>
+Package pdftex.def Info: figures/validation_plots/PROCESS/SA_process_3D.png  used on input line 306.
+(pdftex.def)             Requested size: 252.0pt x 200.533pt.
+ [9 <./figures/validation_plots/PROCESS/st20_d1_7bins_folds.png> <./figures/validation_plots/PROCESS/SA_process_3D.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 323.
+               Default added (so using `tbp') on input line 326.
 
 <figures/TE_results/4x4scatter_inputs_marchdata.png, id=66, 896.8707pt x 492.1587pt>
 File: figures/TE_results/4x4scatter_inputs_marchdata.png Graphic file (type png)
 <use figures/TE_results/4x4scatter_inputs_marchdata.png>
-Package pdftex.def Info: figures/TE_results/4x4scatter_inputs_marchdata.png  used on input line 352.
+Package pdftex.def Info: figures/TE_results/4x4scatter_inputs_marchdata.png  used on input line 355.
 (pdftex.def)             Requested size: 412.80157pt x 226.53093pt.
-[10]
-<figures/methodology/output_distributions.png, id=71, 1023.3432pt x 254.3904pt>
-File: figures/methodology/output_distributions.png Graphic file (type png)
-<use figures/methodology/output_distributions.png>
-Package pdftex.def Info: figures/methodology/output_distributions.png  used on input line 394.
-(pdftex.def)             Requested size: 252.0pt x 62.64255pt.
-<figures/TE_results/march_data/config(57)_3outputs_v2_6.png, id=72, 970.5861pt x 497.9403pt>
+[10] [11 <./figures/TE_results/4x4scatter_inputs_marchdata.png>]
+<figures/TE_results/output_dists_3vars.png, id=75, 998.7714pt x 360.6273pt>
+File: figures/TE_results/output_dists_3vars.png Graphic file (type png)
+<use figures/TE_results/output_dists_3vars.png>
+Package pdftex.def Info: figures/TE_results/output_dists_3vars.png  used on input line 401.
+(pdftex.def)             Requested size: 252.0pt x 90.9875pt.
+<figures/TE_results/march_data/config(57)_3outputs_v2_6.png, id=76, 970.5861pt x 497.9403pt>
 File: figures/TE_results/march_data/config(57)_3outputs_v2_6.png Graphic file (type png)
 <use figures/TE_results/march_data/config(57)_3outputs_v2_6.png>
-Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_v2_6.png  used on input line 435.
+Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_v2_6.png  used on input line 443.
 (pdftex.def)             Requested size: 412.80157pt x 211.77759pt.
 
-Underfull \vbox (badness 3333) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11 <./figures/TE_results/4x4scatter_inputs_marchdata.png> <./figures/methodology/output_distributions.png>] [12]
-<figures/TE_results/march_data/3D_posteriors.png, id=82, 1774.9512pt x 529.7391pt>
+ [12 <./figures/TE_results/output_dists_3vars.png>]
+<figures/TE_results/march_data/config(57)_outputs(3)_hybrid_2.png, id=81, 962.6364pt x 413.3844pt>
+File: figures/TE_results/march_data/config(57)_outputs(3)_hybrid_2.png Graphic file (type png)
+<use figures/TE_results/march_data/config(57)_outputs(3)_hybrid_2.png>
+Package pdftex.def Info: figures/TE_results/march_data/config(57)_outputs(3)_hybrid_2.png  used on input line 494.
+(pdftex.def)             Requested size: 412.80157pt x 177.26613pt.
+ [13 <./figures/TE_results/march_data/config(57)_3outputs_v2_6.png>] [14 <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid_2.png>]
+<figures/TE_results/march_data/3D_posteriors.png, id=91, 1774.9512pt x 529.7391pt>
 File: figures/TE_results/march_data/3D_posteriors.png Graphic file (type png)
 <use figures/TE_results/march_data/3D_posteriors.png>
-Package pdftex.def Info: figures/TE_results/march_data/3D_posteriors.png  used on input line 505.
+Package pdftex.def Info: figures/TE_results/march_data/3D_posteriors.png  used on input line 530.
 (pdftex.def)             Requested size: 516.0pt x 154.0003pt.
- [13 <./figures/TE_results/march_data/config(57)_3outputs_v2_6.png> <./figures/TE_results/march_data/3D_posteriors.png>] [14] (./main.bbl
+ [15 <./figures/TE_results/march_data/3D_posteriors.png>] (./main.bbl
 Underfull \hbox (badness 1960) in paragraph at lines 28--29
 []\OT1/ptm/m/n/10 M. Ko-vari, F. Fox, C. Har-ring-ton, R. Kem-ble-ton,
  []
@@ -711,110 +719,104 @@ Underfull \hbox (badness 1442) in paragraph at lines 67--68
 \OT1/ptm/m/n/10 jima, ``Bayesian net-work meta-mod-els for inference-
  []
 
-[15]
-Underfull \hbox (badness 2401) in paragraph at lines 142--144
+[16]
+Underfull \hbox (badness 2401) in paragraph at lines 145--147
 \OT1/ptm/m/n/10 able: https://iopscience.iop.org/article/10.1088/1361-
  []
 
-) (./appendices.tex [16]
-<figures/validation_plots/TE/k-fold_two_outputs.png, id=98, 606.3453pt x 976.3677pt>
+) (./appendices.tex [17]
+<figures/validation_plots/TE/k-fold_two_outputs.png, id=102, 606.3453pt x 976.3677pt>
 File: figures/validation_plots/TE/k-fold_two_outputs.png Graphic file (type png)
 <use figures/validation_plots/TE/k-fold_two_outputs.png>
-Package pdftex.def Info: figures/validation_plots/TE/k-fold_two_outputs.png  used on input line 31.
+Package pdftex.def Info: figures/validation_plots/TE/k-fold_two_outputs.png  used on input line 30.
 (pdftex.def)             Requested size: 335.39685pt x 540.07292pt.
+ [18
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/TE_results/march_data/config(57)_3outputs_V2_1.png, id=99, 964.8045pt x 468.3096pt>
+ <./figures/validation_plots/TE/k-fold_two_outputs.png>]
+<figures/TE_results/march_data/config(57)_3outputs_V2_1.png, id=107, 964.8045pt x 468.3096pt>
 File: figures/TE_results/march_data/config(57)_3outputs_V2_1.png Graphic file (type png)
 <use figures/TE_results/march_data/config(57)_3outputs_V2_1.png>
-Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_V2_1.png  used on input line 147.
+Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_V2_1.png  used on input line 148.
 (pdftex.def)             Requested size: 309.60315pt x 150.27658pt.
-<figures/TE_results/march_data/config(57)_3outputs_V2_2.png, id=100, 962.6364pt x 468.3096pt>
+<figures/TE_results/march_data/config(57)_3outputs_V2_2.png, id=108, 962.6364pt x 468.3096pt>
 File: figures/TE_results/march_data/config(57)_3outputs_V2_2.png Graphic file (type png)
 <use figures/TE_results/march_data/config(57)_3outputs_V2_2.png>
 Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_V2_2.png  used on input line 154.
 (pdftex.def)             Requested size: 309.60315pt x 150.61244pt.
-<figures/TE_results/march_data/config(57)_3outputs_V2_3.png, id=101, 966.2499pt x 474.8139pt>
+<figures/TE_results/march_data/config(57)_3outputs_V2_3.png, id=109, 966.2499pt x 474.8139pt>
 File: figures/TE_results/march_data/config(57)_3outputs_V2_3.png Graphic file (type png)
 <use figures/TE_results/march_data/config(57)_3outputs_V2_3.png>
-Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_V2_3.png  used on input line 161.
+Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_V2_3.png  used on input line 160.
 (pdftex.def)             Requested size: 309.60315pt x 152.13916pt.
-<figures/TE_results/march_data/config(57)_3outputs_v2_5.png, id=102, 970.5861pt x 479.1501pt>
+<figures/TE_results/march_data/config(57)_3outputs_v2_5.png, id=110, 970.5861pt x 479.1501pt>
 File: figures/TE_results/march_data/config(57)_3outputs_v2_5.png Graphic file (type png)
 <use figures/TE_results/march_data/config(57)_3outputs_v2_5.png>
-Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_v2_5.png  used on input line 169.
+Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_v2_5.png  used on input line 167.
 (pdftex.def)             Requested size: 309.60315pt x 152.84131pt.
-<figures/TE_results/march_data/config(57)_3outputs_V2_6.png, id=103, 970.5861pt x 497.9403pt>
+<figures/TE_results/march_data/config(57)_3outputs_V2_6.png, id=111, 970.5861pt x 497.9403pt>
 File: figures/TE_results/march_data/config(57)_3outputs_V2_6.png Graphic file (type png)
 <use figures/TE_results/march_data/config(57)_3outputs_V2_6.png>
-Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_V2_6.png  used on input line 176.
+Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_V2_6.png  used on input line 173.
 (pdftex.def)             Requested size: 309.60315pt x 158.83508pt.
-<figures/TE_results/march_data/config(57)_3outputs_V2_7.png, id=104, 970.5861pt x 494.3268pt>
+<figures/TE_results/march_data/config(57)_3outputs_V2_7.png, id=112, 970.5861pt x 494.3268pt>
 File: figures/TE_results/march_data/config(57)_3outputs_V2_7.png Graphic file (type png)
 <use figures/TE_results/march_data/config(57)_3outputs_V2_7.png>
-Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_V2_7.png  used on input line 183.
+Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_V2_7.png  used on input line 179.
 (pdftex.def)             Requested size: 309.60315pt x 157.68243pt.
-<figures/TE_results/march_data/config(57)_3outputs_V2_8.png, id=105, 967.6953pt x 502.9992pt>
+<figures/TE_results/march_data/config(57)_3outputs_V2_8.png, id=113, 967.6953pt x 502.9992pt>
 File: figures/TE_results/march_data/config(57)_3outputs_V2_8.png Graphic file (type png)
 <use figures/TE_results/march_data/config(57)_3outputs_V2_8.png>
-Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_V2_8.png  used on input line 190.
+Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_V2_8.png  used on input line 185.
 (pdftex.def)             Requested size: 309.60315pt x 160.92465pt.
-<figures/TE_results/march_data/config(57)_3outputs_V2_9.png, id=106, 970.5861pt x 502.2765pt>
+<figures/TE_results/march_data/config(57)_3outputs_V2_9.png, id=114, 970.5861pt x 502.2765pt>
 File: figures/TE_results/march_data/config(57)_3outputs_V2_9.png Graphic file (type png)
 <use figures/TE_results/march_data/config(57)_3outputs_V2_9.png>
-Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_V2_9.png  used on input line 197.
+Package pdftex.def Info: figures/TE_results/march_data/config(57)_3outputs_V2_9.png  used on input line 191.
 (pdftex.def)             Requested size: 309.60315pt x 160.21826pt.
-<figures/TE_results/march_data/config(57)_outputs(3)_hybrid_2.png, id=107, 962.6364pt x 413.3844pt>
-File: figures/TE_results/march_data/config(57)_outputs(3)_hybrid_2.png Graphic file (type png)
-<use figures/TE_results/march_data/config(57)_outputs(3)_hybrid_2.png>
-Package pdftex.def Info: figures/TE_results/march_data/config(57)_outputs(3)_hybrid_2.png  used on input line 204.
-(pdftex.def)             Requested size: 309.60315pt x 132.94801pt.
-<figures/TE_results/march_data/config(57)_outputs(3)_hybrid_3.png, id=108, 918.5517pt x 388.8126pt>
+<figures/TE_results/march_data/config(57)_outputs(3)_hybrid_3.png, id=115, 918.5517pt x 388.8126pt>
 File: figures/TE_results/march_data/config(57)_outputs(3)_hybrid_3.png Graphic file (type png)
 <use figures/TE_results/march_data/config(57)_outputs(3)_hybrid_3.png>
-Package pdftex.def Info: figures/TE_results/march_data/config(57)_outputs(3)_hybrid_3.png  used on input line 211.
+Package pdftex.def Info: figures/TE_results/march_data/config(57)_outputs(3)_hybrid_3.png  used on input line 203.
 (pdftex.def)             Requested size: 309.60315pt x 131.0495pt.
-<figures/TE_results/march_data/config(57)_outputs(3)_hybrid4.png, id=109, 998.0487pt x 424.2249pt>
+<figures/TE_results/march_data/config(57)_outputs(3)_hybrid4.png, id=116, 998.0487pt x 424.2249pt>
 File: figures/TE_results/march_data/config(57)_outputs(3)_hybrid4.png Graphic file (type png)
 <use figures/TE_results/march_data/config(57)_outputs(3)_hybrid4.png>
-Package pdftex.def Info: figures/TE_results/march_data/config(57)_outputs(3)_hybrid4.png  used on input line 218.
+Package pdftex.def Info: figures/TE_results/march_data/config(57)_outputs(3)_hybrid4.png  used on input line 209.
 (pdftex.def)             Requested size: 309.60315pt x 131.59897pt.
-<figures/TE_results/march_data/config(57)_outputs(3)_hybrid5.png, id=110, 982.1493pt x 359.9046pt>
+<figures/TE_results/march_data/config(57)_outputs(3)_hybrid5.png, id=117, 982.1493pt x 359.9046pt>
 File: figures/TE_results/march_data/config(57)_outputs(3)_hybrid5.png Graphic file (type png)
 <use figures/TE_results/march_data/config(57)_outputs(3)_hybrid5.png>
-Package pdftex.def Info: figures/TE_results/march_data/config(57)_outputs(3)_hybrid5.png  used on input line 225.
+Package pdftex.def Info: figures/TE_results/march_data/config(57)_outputs(3)_hybrid5.png  used on input line 215.
 (pdftex.def)             Requested size: 309.60315pt x 113.45291pt.
-<figures/TE_results/march_data/config(57)_outputs(3)_hybrid6.png, id=111, 998.0487pt x 354.123pt>
+<figures/TE_results/march_data/config(57)_outputs(3)_hybrid6.png, id=118, 998.0487pt x 354.123pt>
 File: figures/TE_results/march_data/config(57)_outputs(3)_hybrid6.png Graphic file (type png)
 <use figures/TE_results/march_data/config(57)_outputs(3)_hybrid6.png>
-Package pdftex.def Info: figures/TE_results/march_data/config(57)_outputs(3)_hybrid6.png  used on input line 232.
+Package pdftex.def Info: figures/TE_results/march_data/config(57)_outputs(3)_hybrid6.png  used on input line 221.
 (pdftex.def)             Requested size: 309.60315pt x 109.85263pt.
-<figures/TE_results/march_data/config(57)_outputs(3)_hybrid7.png, id=112, 987.9309pt x 388.0899pt>
+<figures/TE_results/march_data/config(57)_outputs(3)_hybrid7.png, id=119, 987.9309pt x 388.0899pt>
 File: figures/TE_results/march_data/config(57)_outputs(3)_hybrid7.png Graphic file (type png)
 <use figures/TE_results/march_data/config(57)_outputs(3)_hybrid7.png>
-Package pdftex.def Info: figures/TE_results/march_data/config(57)_outputs(3)_hybrid7.png  used on input line 239.
+Package pdftex.def Info: figures/TE_results/march_data/config(57)_outputs(3)_hybrid7.png  used on input line 227.
 (pdftex.def)             Requested size: 309.60315pt x 121.62125pt.
-<figures/TE_results/march_data/config(57)_outputs(3)_hybrid8.png, id=113, 981.4266pt x 393.1488pt>
+<figures/TE_results/march_data/config(57)_outputs(3)_hybrid8.png, id=120, 981.4266pt x 393.1488pt>
 File: figures/TE_results/march_data/config(57)_outputs(3)_hybrid8.png Graphic file (type png)
 <use figures/TE_results/march_data/config(57)_outputs(3)_hybrid8.png>
-Package pdftex.def Info: figures/TE_results/march_data/config(57)_outputs(3)_hybrid8.png  used on input line 247.
+Package pdftex.def Info: figures/TE_results/march_data/config(57)_outputs(3)_hybrid8.png  used on input line 234.
 (pdftex.def)             Requested size: 309.60315pt x 124.02249pt.
-) [17] [18 <./figures/validation_plots/TE/k-fold_two_outputs.png>] [19 <./figures/TE_results/march_data/config(57)_3outputs_V2_1.png> <./figures/TE_results/march_data/config(57)_3outputs_V2_2.png> <./figures/TE_results/march_data/config(57)_3outputs_V2_3.png>] [20 <./figures/TE_results/march_data/config(57)_3outputs_v2_5.png> <./figures/TE_results/march_data/config(57)_3outputs_V2_6.png> <./figures/TE_results/march_data/config(57)_3outputs_V2_7.png>] [21 <./figures/TE_results/march_data/config(57)_3outputs_V2_8.png> <./figures/TE_results/march_data/config(57)_3outputs_V2_9.png> <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid_2.png>] [22 <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid_3.png> <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid4.png> <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid5.png>] [23 <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid6.png> <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid7.png> <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid8.png>] (./main.aux) ) 
+ [19 <./figures/TE_results/march_data/config(57)_3outputs_V2_1.png> <./figures/TE_results/march_data/config(57)_3outputs_V2_2.png> <./figures/TE_results/march_data/config(57)_3outputs_V2_3.png>]) [20 <./figures/TE_results/march_data/config(57)_3outputs_v2_5.png> <./figures/TE_results/march_data/config(57)_3outputs_V2_6.png> <./figures/TE_results/march_data/config(57)_3outputs_V2_7.png>] [21 <./figures/TE_results/march_data/config(57)_3outputs_V2_8.png> <./figures/TE_results/march_data/config(57)_3outputs_V2_9.png> <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid_3.png>] [22 <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid4.png> <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid5.png> <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid6.png>] [23 <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid7.png> <./figures/TE_results/march_data/config(57)_outputs(3)_hybrid8.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 27690 strings out of 476025
- 702407 string characters out of 5790017
+ 27701 strings out of 476025
+ 702518 string characters out of 5790017
  1878388 words of memory out of 5000000
- 47655 multiletter control sequences out of 15000+600000
+ 47666 multiletter control sequences out of 15000+600000
  563484 words of font info for 138 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 99i,15n,103p,2092b,893s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (23 pages, 2803023 bytes).
+ 99i,15n,103p,2093b,893s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (23 pages, 2963798 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
+ 228 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
